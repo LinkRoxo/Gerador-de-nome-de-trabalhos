@@ -20,6 +20,8 @@ def getMes():
     if len(previaMes) == 1:
         mes = ("0" + previaMes)
         return mes
-
+    else:
+        mes = previaMes
+        return mes
 
 main()   
